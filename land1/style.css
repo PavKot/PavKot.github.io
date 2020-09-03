@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.nav-links a.icon{
+    display: none;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 200px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+}
+header{
+    background-image: url(img/header.png);
+    padding-bottom: 100px;
+    
+}
+.nav-links a{
+    color: #333333;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.nav-number{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.header_block{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 200px;
+}
+.header_left_block{
+    margin-top: 50px;
+}
+header h3{
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 109.44%;
+    margin-left: 5px;
+}
+.header_block h1{
+    font-size: 70px;
+    line-height: 98.44%;
+}
+.header_right_block img{
+    width: 100%;
+}
+.header_left_block a{
+    background: #3D9BE9;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.main_text{
+    padding-bottom: 60px;
+}
+.main_block_cards{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card{
+    text-align: center;
+    background: #FEFEFE;
+    border-radius: 6px; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 30px;
+    padding: 50px;
+}
+.card h3{
+    margin-top: 20px;
+}
+.card p{
+    margin-top: 20px;
+}
+.main_block_cards div:first-child{
+    margin-left: 0;
+}
+.preferences_header{
+    text-align: center;
+}
+.preferences_block{
+    margin-top: 150px;
+    background-image: url(img/preferences.png);
+    padding-bottom: 500px;
+}
+.preferences_cards{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-top: 225px;
+}
+.preference_card{
+    text-align: center;
+    width: 350px;
+}
+.price_block{
+    padding-top: 80px;
+}
+.price_block_header{
+    text-align: center;
+}
+.line{
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    width: 192px;
+    margin-top: 5px;
+}
+.price_cards{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 70px;
+}
+.price_card h4{
+    margin-top: 80px;
+}
+.price_card{
+    margin-left: 160px;
+    text-align: center;
+}
+.price_cards div:first-child{
+    margin-left: 0;
+}
+.info_card{
+    margin-left: 80px;
+}
+.info_card p{
+    margin-top: 10px;
+}
+.info_card h3{
+    margin-top: 40px;
+}
+.info_card h3:first-child{
+    margin-top: 0;
+}
+.download{
+    display: flex;
+}
+.download{
+    margin-top: 50px;
+}
+.download h4{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.conditions_block{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.conditions_block_header{
+    text-align: center;
+}
+.conditions_block_right{
+    margin-top: 20px;
+}
+.conditions_block_left li{
+    margin-top: 40px;
+}
+.conditions_cards{
+    display: inline-flex;
+    padding: 15px 100px;
+}
+.contact_form_header{
+    text-align: center;
+}
+.contact_form_block{
+    background: #F8F8F8;
+    padding-top: 100px;
+}
+.contact_block_right input{
+    border: 0;
+    border-bottom: 1px solid;
+    background: transparent;
+    margin-top: 50px;
+    padding: 10px;
+}
+.c-form{
+    display: grid;
+
+}
+.contact_blocks{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.c-form a{
+    background: #3D9BE9;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 70px;
+}
+.checkbox{
+    display: flex;
+    margin-top: 10px;
+}
+.checkbox p{
+    margin-left: 10px;
+}
+.checkbox input{
+    margin-top: 3px;
+}
+.contact_block_right{
+    margin-top: 100px;
+}
+.choose_block_header{
+    text-align: center;
+}
+.choose_cards{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.choose_cards img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.choose_block{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.map_block{
+    background-image: url(img/map.png);
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+.map-card{
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    margin-left: 100px;
+}
+.map-card ol{
+    list-style-type: none;
+}
+.map-card li{
+    margin-top: 15px;
+}
+footer{
+    background: #333333;
+}
+@media(max-width:1100px){
+    .nav-links a{
+        display: none;
+    }
+    .nav-links a.icon{
+        display: block !important;
+        font-size: 20px;
+    }
+    .nav-links.responsive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    nav{
+        width: 100%;
+    }
+    header .nav-links.responsive{
+        height: 340px;
+        display: grid;
+    }
+    .nav-links.responsive a.icon{
+        position: absolute;
+        top: -50px;
+        right: -150px;
+    }
+    .nav-links a.icon{
+        position: absolute;
+        right: 50px;
+    }
+    .nav-links.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .search{
+        display: none;
+    }
+    .nav-wrapper{
+        padding: 0;
+    }
+    .nav-logo{
+        margin-left: 50px;
+    }
+    .main_block_cards{
+        grid-template-columns: none;
+    }
+    .card{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .preferences_cards{
+        grid-template-columns: none;
+    }
+    .preference_card{
+        margin-top: 20px;
+    }
+    .header_block{
+        display: grid;
+    }
+    .header_right_block img{
+        margin-top: 50px;
+    }
+    .info_card{
+        margin-left: 0;
+    }
+    .price_card{
+        margin-left: 0;
+    }
+    .conditions_cards{
+        display: block;
+    }
+    .conditions_block_right img{
+        width: 100%;
+    }
+    .contact_block_left img{
+        width: 100%;
+    }
+    .choose_cards{
+        grid-template-columns: none;
+    }
+}
